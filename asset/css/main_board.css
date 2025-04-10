@@ -1,0 +1,84 @@
+
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color:  #C4CDC3;
+}
+/* .navbar */
+#navbar{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.navbar-top .logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.navbar-top .logo>img{
+    width: 100%;
+    height: 100%;
+}
+.navbar-top .menu ul{
+   text-align: center;
+}
+.navbar-top .menu li{
+   list-style: none;
+   padding: 20px 0;
+}
+.navbar-top .menu li:hover, #navbar .upload:hover{
+    background-color:#9BBCE7;
+    border-radius: 10px;
+}
+.navbar-top .menu li a, #navbar .upload a{
+ display: block;   
+}
+.navbar-top .menu li a img, #navbar .upload a img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-top .upload{
+    padding: 20px;
+}
+#navbar .upload{
+    padding: 20px;
+}
+
+/* main */
+#main{
+    width: 100%;
+}
+#main .header{
+    background: linear-gradient(90deg, #DCFFD3 17%, #DEC5A8 100%);
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.header .title
+{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header .btn-exit a img{
+    width: 40px;
+}
+
+#main .content{
+    background-color: #fff;
+    height: 75%;
+}
